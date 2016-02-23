@@ -223,8 +223,8 @@ Intro
 ========================================================================== */
 .intro { background: url('../img/Fundo.jpg') no-repeat center center;}
 .intro p { right: 10px; margin-top: 10px; color: white;}
-
-h1.arrow {margin-left: 190px; font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+.co {margin-left:200px; margin-top: 10px ;text-align: center;}
+h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -234,16 +234,16 @@ Features
 
 .grafico { 
 position: relative; /* para corrigir problema no IE */
-width: 150px;
+width: 180px;
   height:30px;
 padding: 2px;
-margin-left: 60px;
- 
+margin-left: 80px;
+ margin-bottom: 27px;
   
   
 }
 .Icon{
-width: 30px;
+width: 50px;
 }
 .nivel{
   margin-top:2px;
@@ -255,6 +255,9 @@ iPhone Section
 .iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
+#responsive{ background: url('../img/fundo2.png')no-repeat center center;}
+#responsive p{color:white;} 
+#responsive h1{ color: white; }
 /* ==========================================================================
 Swag
 ========================================================================== */
@@ -333,7 +336,8 @@ ul.legals li:last-child::after { content: ""; }
 FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px; }
+ul.slides li { margin-bottom: 40px; }
+
 /* ==========================================================================
 Waypoints
 ========================================================================== */
